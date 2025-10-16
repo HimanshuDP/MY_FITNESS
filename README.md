@@ -1,8 +1,3 @@
-# MY_FIT Recipe Data Processor
-
-### ** Repository Link **
-https://github.com/Himanshu212005/My_Fit
-
 ## 1. Overview
 
 This project is a suite of Node.js scripts designed to process, clean, and manage recipe data for the MY_FIT application. Its primary function is to take a raw JSON data file of recipes (`full_recipe_data.json`) and a directory of unsorted images, and systematically link each recipe to its correct image.
@@ -121,5 +116,6 @@ node verify_recipe_images.js
 ```
 
 If there are any missing images, the script will list them. You may need to revisit the previous steps to correct any errors. If all is well, you'll get a success message, and your `full_recipe_data.json` is now clean and ready for use in the application.
+
 
 
